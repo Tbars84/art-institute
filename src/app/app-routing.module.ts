@@ -7,7 +7,6 @@ const routes: Routes = [
   { path: '', redirectTo: '/login', pathMatch: 'full' },
   { path: 'dashboard', component: HomeComponent },
   { path: 'login', component: AuthFormComponent },
-  // Otras rutas
 ];
 
 @NgModule({
